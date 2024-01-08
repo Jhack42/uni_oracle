@@ -1,0 +1,65 @@
+<head>
+<style>
+    /* Estilos CSS para el diseño del mensaje */
+    .container {{
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        border: 2px solid maroon;
+        border-radius: 10px;
+        text-align: center;
+    }}
+    /*------------encabezado-------------*/
+    .encabezado {{
+        background-color: rgb(230, 217, 170);
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        text-align: left; /* Alineación a la izquierda */
+    }}
+    .texto-uni-orce {{
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 20px;
+        color: #711610
+    }}
+    /* Estilos para la imagen dentro del encabezado */
+    .header .img-container {{
+        float: right; /* Alineación a la derecha */
+        margin-left: 10px; /* Espaciado entre la imagen y el texto */
+    }}
+    
+    .imagen {{
+        max-width: 100px;
+        /* Ajusta el tamaño de la imagen según sea necesario */
+    }}
+    /*------------content-------------*/
+    .content {{
+        background-color: white;
+        padding: 20px;
+        color: #711610
+    }}
+    <!--------------pie_de_página--------------->
+    <div class="pie_de_página">
+        <!--------------direccion--------------->
+        <div class="text_direccion" style="display: inline-block;">
+            <p>Contacto</p>
+            <p>Av. Túpac Amaru 210 - Rímac.</p>
+            <p>Apartado 1301. Lima - Perú</p>
+            <p>Telf.: 4811070</p>
+        </div>
+        <!--------------text--------------->
+        <div class="text" style="display: inline-block;">
+            <p style="text-align: center;">2022 © Derechos Reservados</p>
+        </div>
+    </div>
+</style>
+</head>
